@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>平安時代末期〜鎌倉時代初期 完全網羅学習LP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Hiragino Sans', 'Meiryo', sans-serif;
+            line-height: 1.9;
+            background: linear-gradient(180deg, #0a0a0a 0%, #1a1a2e 50%, #16213e 100%);
+            color: #e0e0e0;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            box-shadow: 0 20px 60px rgba(102, 126, 234, 0.6);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: rotate 20s linear infinite;
+        }
+
+        @keyframes rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .hero h1 {
+            font-size: 3.5em;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+            position: relative;
+            z-index: 1;
+            font-weight: 900;
+        }
+
+        .hero p {
+            font-size: 1.4em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section {
+            background: linear-gradient(135deg, rgba(30,30,50,0.95) 0%, rgba(20,20,35,0.98) 100%);
+            border-radius: 30px;
+            padding: 50px;
+            margin-bottom: 50px;
+            box-shadow: 0 25px 70px rgba(0,0,0,0.5), inset 0 0 100px rgba(102, 126, 234, 0.05);
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            backdrop-filter: blur(10px);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .section::before {
+            content: '';
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            height: 3px;
+            background: linear-gradient(90deg, #667eea, #764ba2, #f093fb, #f5576c, #fa709a);
+            border-radius: 30px 30px 0 0;
+        }
+
+        .main-heading {
+            font-size: 2.8em;
+            margin-bottom: 40px;
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 30%, #f093fb 60%, #f5576c 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            position: relative;
+            padding-bottom: 20px;
+        }
+
+        .main-heading::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 200px;
+            height: 4px;
+            background: linear-gradient(90deg, transparent, #667eea, #f093fb, transparent);
+            border-radius: 2px;
+        }
+
+        .sub-heading {
+            font-size: 2em;
+            margin: 35px 0 25px 0;
+            padding: 15px 25px;
+            border-radius: 15px;
+            font-weight: 800;
+            display: inline-block;
+            position: relative;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        .heading-purple { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .heading-pink { 
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        .heading-blue { 
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+        }
+        .heading-orange { 
+            background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+            color: #1a1a2e;
+        }
+        .heading-green { 
+            background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);
+            color: white;
+        }
+        .heading-red {
+            background: linear-gradient(135deg, #f5576c 0%, #c21500 100%);
+            color: white;
+        }
+        .heading-teal {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+        .heading-indigo {
+            background: linear-gradient(135deg, #5f72bd 0%, #9b23ea 100%);
+            color: white;
+        }
+        .heading-yellow {
+            background: linear-gradient(135deg, #f7b733 0%, #fc4a1a 100%);
+            color: white;
+        }
+        .heading-cyan {
+            background: linear-gradient(135deg, #09a7e6 0%, #667eea 100%);
+            color: white;
+        }
+
+        .mini-heading {
+            font-size: 1.4em;
+            margin: 25px 0 15px 0;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: 700;
+            display: inline-block;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+
+        .content-box {
+            background: linear-gradient(135deg, rgba(40,40,60,0.6) 0%, rgba(30,30,45,0.6) 100%);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            border-left: 5px solid;
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+            transition: all 0.4s ease;
+        }
+
+        .content-box:hover {
+            transform: translateX(10px);
+            box-shadow: 0 20px 50px rgba(102, 126, 234, 0.4);
+        }
+
+        .box-purple { border-color: #667eea; }
+        .box-pink { border-color: #f093fb; }
+        .box-blue { border-color: #4facfe; }
+        .box-orange { border-color: #fa709a; }
+        .box-green { border-color: #30cfd0; }
+        .box-red { border-color: #f5576c; }
+        .box-teal { border-color: #38ef7d; }
+        .box-yellow { border-color: #f7b733; }
+
+        .text {
+            color: #d0d0d0;
+            line-height: 2;
+            margin-bottom: 15px;
+            font-size: 1.05em;
+        }
+
+        .highlight {
+            background: linear-gradient(transparent 60%, rgba(102, 126, 234, 0.4) 60%);
+            font-weight: 700;
+            padding: 2px 6px;
+            border-radius: 3px;
+            color: #fff;
+        }
+
+        .highlight-pink {
+            background: linear-gradient(transparent 60%, rgba(240, 147, 251, 0.4) 60%);
+            font-weight: 700;
+            padding: 2px 6px;
+            color: #fff;
+        }
+
+        .highlight-orange {
+            background: linear-gradient(transparent 60%, rgba(250, 112, 154, 0.4) 60%);
+            font-weight: 700;
+            padding: 2px 6px;
+            color: #fff;
+        }
+
+        .highlight-green {
+            background: linear-gradient(transparent 60%, rgba(48, 207, 208, 0.4) 60%);
+            font-weight: 700;
+            padding: 2px 6px;
+            color: #fff;
+        }
+
+        .year-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #f5576c 0%, #fa709a 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: 800;
+            margin: 10px 10px 10px 0;
+            font-size: 1em;
+            box-shadow: 0 8px 20px rgba(245, 87, 108, 0.4);
+        }
+
+        .list {
+            margin-left: 30px;
+            margin-top: 15px;
+        }
+
+        .list li {
+            margin-bottom: 12px;
+            color: #d0d0d0;
+            line-height: 1.9;
+            position: relative;
+            padding-left: 10px;
+        }
+
+        .list li::marker {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .note-box {
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%);
+            border: 2px solid rgba(102, 126, 234, 0.4);
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.2);
+        }
+
+        .note-box h4 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            font-weight: 800;
+        }
+
+        .timeline-visual {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 40px 0;
+            flex-wrap: wrap;
+        }
+
+        .timeline-item-visual {
+            flex: 1;
+            min-width: 150px;
+            text-align: center;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 15px;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.2) 0%, rgba(118, 75, 162, 0.2) 100%);
+            border: 2px solid rgba(102, 126, 234, 0.3);
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .timeline-item-visual:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+        }
+
+        .timeline-item-visual::after {
+            content: '→';
+            position: absolute;
+            right: -30px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 2em;
+            color: #667eea;
+        }
+
+        .timeline-item-visual:last-child::after {
+            content: '';
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2em; }
+            .main-heading { font-size: 2em; }
+            .sub-heading { font-size: 1.5em; }
+            .section { padding: 30px 20px; }
+            .timeline-item-visual::after { content: '↓'; right: 50%; bottom: -30px; top: auto; }
+        }
+
+        .emphasis {
+            color: #f093fb;
+            font-weight: 800;
+        }
+
+        .emphasis-blue {
+            color: #4facfe;
+            font-weight: 800;
+        }
+
+        .emphasis-orange {
+            color: #fa709a;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <h1>平安時代末期〜鎌倉時代初期 完全学習</h1>
+        <p>教科書の全内容を一文も残さず完全網羅</p>
+    </div>
+
+    <div class="container">
+        <!-- セクション1: 平清盛の政権 -->
+        <div class="section">
+            <h2 class="main-heading">平清盛の政権</h2>
+            
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">平清盛の政権</h3>
+                <p class="text">
+                    平清盛は、後白河上皇の院政を助け、武士として初めて<span class="highlight">大政大臣</span>になりました。
+                </p>
+                <span class="year-badge">p.47（記載あり）</span>
+            </div>
+
+        <!-- セクション7: 鎌倉幕府の成立 -->
+        <div class="section">
+            <h2 class="main-heading">鎌倉幕府の成立</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">守護と地頭の設置</h3>
+                <p class="text">
+                    平氏をほろぼした頼朝は、朝廷から<span class="highlight">守護</span>と<span class="highlight">地頭</span>を置く権利を認められました。
+                </p>
+                <span class="year-badge">1185年</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <h4 class="mini-heading heading-pink">守護の役割</h4>
+                <p class="text">
+                    <span class="highlight-pink">守護</span>は国ごとに置かれ、軍事や警察の役割を担当しました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <h4 class="mini-heading heading-blue">地頭の役割</h4>
+                <p class="text">
+                    <span class="highlight-blue">地頭</span>は荘園や公領ごとに置かれ、年貢の取り立てや土地の管理を行いました。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    頼朝は東国を中心に全国に守護と地頭を配置しました。
+                </p>
+            </div>
+
+            <div class="content-box box-green">
+                <h3 class="sub-heading heading-green">征夷大将軍に任命</h3>
+                <p class="text">
+                    1192年、頼朝は朝廷から<span class="highlight-green">征夷大将軍</span>に任命されました。将軍が率いる武士の政権を<span class="highlight-green">幕府</span>といい、頼朝の政権を<span class="highlight-green">鎌倉幕府</span>といいます。
+                </p>
+                <span class="year-badge">1192年</span>
+            </div>
+
+            <div class="content-box box-teal">
+                <h3 class="sub-heading heading-teal">御恩と奉公</h3>
+                <p class="text">
+                    将軍と武士は、<span class="highlight">御恩と奉公</span>という主従関係で結ばれていました。
+                </p>
+            </div>
+
+            <div class="content-box box-red">
+                <h4 class="mini-heading heading-red">御恩とは</h4>
+                <p class="text">
+                    <span class="highlight">御恩</span>：将軍が武士に対して、領地（土地）の支配権を認めたり、新しい領地を与えること。
+                </p>
+            </div>
+
+            <div class="content-box box-yellow">
+                <h4 class="mini-heading heading-yellow">奉公とは</h4>
+                <p class="text">
+                    <span class="highlight-orange">奉公</span>：武士が将軍に対して、いざという時に戦いに参加したり、鎌倉や京都の警備をすること。
+                </p>
+            </div>
+
+            <div class="content-box box-indigo">
+                <p class="text">
+                    武士は将軍を主君として忠誠を誓い、将軍は武士を家来（御家人）として保護する関係でした。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション8: 唐の滅亡と宋・高麗 -->
+        <div class="section">
+            <h2 class="main-heading">唐の滅亡と東アジアの変化</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">唐の滅亡と宋の商人</h3>
+                <p class="text">
+                    10世紀の初め、日本に大きな影響をあたえてきた<span class="highlight">唐が滅び</span>、小国に分かれた後、やがて<span class="highlight">宋</span>が中国を統一しました。朝鮮半島では、唐が滅んでまもなく<span class="highlight">新羅が滅ぼされ</span>ました。
+                </p>
+                <span class="year-badge">10世紀初め</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    日本は<span class="highlight-pink">宋や高麗</span>と正式な貿易を行い（<span class="highlight-pink">日宋貿易</span>）、日本で手に入らない絹織物や香料、薬品などを買いました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <h3 class="sub-heading heading-blue">国風文化</h3>
+                <p class="text">
+                    平安時代の初め、貴族は引き続き唐風の文化を好み、<span class="highlight-blue">漢文の詩</span>を盛んに作りました。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    しかし、唐との関係が変化してくると、唐風の文化を基にしながら、日本の風土や生活、日本人の感情に合った文化を生み出していきました。これを<span class="highlight-orange">国風文化</span>といい、摂関政治のころに栄えました。
+                </p>
+                <span class="year-badge">p.70（記載あり）</span>
+            </div>
+
+            <div class="content-box box-green">
+                <h4 class="mini-heading heading-green">仮名文字</h4>
+                <p class="text">
+                    9世紀には、漢字を変形させて、日本語を書き表せる<span class="highlight-green">仮名文字</span>が作られました。そして、とりわけ唐の影響が弱まった10世紀以降、仮名文字による文学作品が盛んに作られました。
+                </p>
+                <span class="year-badge">9世紀</span>
+            </div>
+
+            <div class="content-box box-teal">
+                <p class="text">
+                    「<span class="highlight">竹取物語</span>」などの物語や、<span class="highlight">紀貫之</span>がまとめた「<span class="highlight">古今和歌集</span>」などです。また、藤原氏から出た天皇のきさきたちの周りには、教養や才能のある女性が集められ、紫式部の「<span class="highlight">源氏物語</span>」や清少納言の「<span class="highlight">枕草子</span>」などが生み出されました。こうした女性による仮名文学が多いことも、国風文化の特徴です。
+                </p>
+            </div>
+
+            <div class="content-box box-red">
+                <h4 class="mini-heading heading-red">服装と建築の変化</h4>
+                <p class="text">
+                    それまで唐風だった天皇や貴族の服装は、省略されたり変形されたりして、ゆったりとした独自のものになりました。貴族の住宅は、一つ一つの建物が廊下で結ばれ、広い庭や池が備えられるようになりました（<span class="highlight">寝殿造</span>）。
+                </p>
+                <span class="year-badge">p.54（記載あり）</span>
+            </div>
+
+            <div class="content-box box-yellow">
+                <h3 class="sub-heading heading-yellow">浄土信仰</h3>
+                <p class="text">
+                    貴族は、この世での幸福や社会の安定を願って、<span class="highlight-orange">天台宗や真言宗</span>の祈とうなどによりました。しかし、社会が変化し、人々の心に不安な気持ちが高まると、10世紀半ばには、念仏を唱えて<span class="highlight-orange">阿弥陀如来</span>にすがり、死後に極楽浄土へ生まれ変わることを願う<span class="highlight-orange">浄土信仰</span>が都でおこりました。
+                </p>
+                <span class="year-badge">10世紀半ば</span>
+            </div>
+
+            <div class="content-box box-cyan">
+                <p class="text">
+                    11世紀になると、浄土信仰は地方にも広まりました。<span class="highlight">藤原頼通</span>が造らせた、宇治（京都府）の<span class="highlight">平等院鳳凰堂</span>は、このころを代表する阿弥陀堂です。
+                </p>
+                <span class="year-badge">11世紀</span>
+            </div>
+
+            <div class="note-box">
+                <h4>🎨 チェック：国風文化の具体例を、本文からぬき出しましょう。</h4>
+                <ul class="list">
+                    <li>仮名文字の作成</li>
+                    <li>「竹取物語」「古今和歌集」「源氏物語」「枕草子」などの仮名文学</li>
+                    <li>服装の変化（唐風から独自のゆったりとしたもの）</li>
+                    <li>寝殿造（建築様式）</li>
+                </ul>
+            </div>
+
+            <div class="note-box">
+                <h4>📝 トライ：国風文化の特色を、天平文化と比べて、30字程度で説明しましょう。</h4>
+                <p class="text">
+                    天平文化は唐の影響が強い国際的な文化であったのに対し、国風文化は日本の風土や感情に合った独自の文化である点が特徴です。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション9: 平安時代の政治の特色 -->
+        <div class="section">
+            <h2 class="main-heading">平安時代の政治の特色</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">藤原氏と摂関政治</h3>
+                <p class="text">
+                    平安時代には、<span class="highlight">藤原氏が娘を天皇のきさきにし、その子を次の天皇に立てることで勢力をのばし、ほかの貴族たちを退けていきました</span>。
+                </p>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    世紀後半には、幼い天皇のかわりに政治を行う<span class="highlight-pink">摂政</span>や、成長した天皇を補佐する<span class="highlight-pink">関白</span>という職に就いて、政治の実権をにぎるようになりました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <p class="text">
+                    このように、摂政や関白が中心になった政治を、<span class="highlight-blue">摂関政治</span>といいます。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    摂関政治は、11世紀前半の<span class="highlight-orange">藤原道長</span>と、その子の<span class="highlight-orange">頼通</span>のころが最も安定し、太政大臣の役職の多くを藤原氏が独占しました。
+                </p>
+                <span class="year-badge">11世紀前半</span>
+                <span class="year-badge">p.46（記載あり）</span>
+            </div>
+
+            <div class="content-box box-green">
+                <p class="text">
+                    彼らはその地位に応じて多くの給料をあたえられていました。
+                </p>
+                <span class="year-badge">p.55（記載あり）</span>
+            </div>
+
+            <div class="content-box box-teal">
+                <h3 class="sub-heading heading-teal">地方政治の変化</h3>
+                <p class="text">
+                    班田収授法が行われなくなると、地方では多くの田を集めて豊かになり、郡司に選ばれる人々も現れました。10世紀になると、朝廷は、租・調・庸という税の取り立てをあきらめ、かわりに、実際に耕している田の面積に応じて、租・調・庸・労役に当たる分の米を納めさせるようにしました。
+                </p>
+                <span class="year-badge">10世紀</span>
+            </div>
+
+            <div class="note-box">
+                <h4>⚖️ チェック：摂政と関白とはそれぞれどのような職か、本文から出しましょう。</h4>
+                <ul class="list">
+                    <li><strong>摂政</strong>：幼い天皇のかわりに政治を行う職</li>
+                    <li><strong>関白</strong>：成長した天皇を補佐する職</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- セクション10: 平安京の成立と律令国家の変化 -->
+        <div class="section">
+            <h2 class="main-heading">平安京の成立と律令国家の変化</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">平安京</h3>
+                <p class="text">
+                    奈良時代の後半には、天皇が仏教と僧を重んじたため、貴族や僧の間で勢力争いが激しくなり、政治が混乱しました。政治を立て直そうとした<span class="highlight">桓武天皇</span>は、784（延暦3）年に都を<span class="highlight">長岡京（京都府）</span>に移し、さらに794年には<span class="highlight">平安京（京都市）</span>に移しました。
+                </p>
+                <span class="year-badge">784年（延暦3年）</span>
+                <span class="year-badge">794年</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    この平安京から貴族が成立するまでの約400年間を、<span class="highlight-pink">平安時代</span>といいます。
+                </p>
+                <span class="year-badge">p.70（記載あり）</span>
+            </div>
+
+            <div class="content-box box-blue">
+                <h3 class="sub-heading heading-blue">律令国家の変化</h3>
+                <p class="text">
+                    平安時代になると、朝廷は、役所を整理したり国司に対する監督を強めたりするなど、支配の仕組みを立て直そうとしました。また、このころには唐の勢力が弱まり、東アジアで戦争が起こるおそれも小さくなったため、東北地方や九州地方以外では、一般の人々の兵役をやめました。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    しかし、重い税の負担からのがれようと、戸籍に登録された土地からはなれる人々が各地で多くなり、戸籍にもいつわりが見られるようになると、律令の決まりどおりに税を取り立てることが難しくなって、<span class="highlight-orange">班田収授法も次第に行われなくなって</span>いきました。
+                </p>
+            </div>
+
+            <div class="content-box box-green">
+                <p class="text">
+                    こうして、人々を戸籍に登録して税を課す<span class="highlight-green">律令国家の仕組み</span>がくずれ、耕している土地に税を課す仕組みに変わりました。
+                </p>
+                <span class="year-badge">p.46（記載あり）</span>
+            </div>
+
+            <div class="content-box box-teal">
+                <p class="text">
+                    朝廷はまた、地方の政治を立て直すため国司の権限を強め、税の取り立て方などを、ほとんど国司に任せるようになりました。こうした政策により、朝廷にとって必要な最低限の収入が確保され、貴族への給料もここからまかなわれました。
+                </p>
+            </div>
+
+            <div class="content-box box-red">
+                <p class="text">
+                    一方で、取り立てた税のうち、一部を朝廷に納め、残りは自らの収入にする国司や、任命された国に代理人を送って、収入を得るだけの国司が多くなり、地方の政治は次第に乱れていきました。国司たちは、国司を任命したり推薦したりする権限を持つ天皇や貴族に、多くのおくり物を届けました。
+                </p>
+            </div>
+
+            <div class="note-box">
+                <h4>📜 トライ：藤原氏がどのようにして政治の実権をにぎったか、説明しましょう。</h4>
+                <p class="text">
+                    藤原氏は娘を天皇のきさきにし、その子を次の天皇に立てることで勢力をのばし、幼い天皇のかわりに政治を行う摂政や、成長した天皇を補佐する関白という職に就いて、政治の実権をにぎりました。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション11: 遣唐使の終わり -->
+        <div class="section">
+            <h2 class="main-heading">遣唐使の終わりと東アジアの変化</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">新しい仏教の動き</h3>
+                <p class="text">
+                    9世紀の初め、遣唐使に従って唐にわたった<span class="highlight">最澄</span>と<span class="highlight">空海</span>は、仏教の新しい教えを日本に伝えました。
+                </p>
+                <span class="year-badge">9世紀初め</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <h4 class="mini-heading heading-pink">最澄と天台宗</h4>
+                <p class="text">
+                    <span class="highlight-pink">最澄</span>は、比叡山（滋賀県・京都府）に<span class="highlight-pink">延暦寺</span>を建て、<span class="highlight-pink">天台宗</span>を始めました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <h4 class="mini-heading heading-blue">空海と真言宗</h4>
+                <p class="text">
+                    <span class="highlight-blue">空海</span>は、高野山（和歌山県）に<span class="highlight-blue">金剛峯寺</span>を建て、<span class="highlight-blue">真言宗</span>を始めました。こうした新しい仏教は、山奥の寺で学問や厳しい修行を行うことを重んじ、貴族の間で広く信仰されるようになっていきました。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <h3 class="sub-heading heading-orange">東アジアの変化</h3>
+                <p class="text">
+                    唐は、国内で反乱が続いたため、9世紀になると急速に勢力がおとろえ、また、日本からの遣唐使の派遣も間隔が空くようになりました。新羅や唐の商人の船が貿易のため日本に来るようになり、これを利用して唐との間を行き来する日本の僧もいました。
+                </p>
+                <span class="year-badge">9世紀</span>
+            </div>
+
+            <div class="content-box box-green">
+                <h4 class="mini-heading heading-green">菅原道真と遣唐使の中止</h4>
+                <p class="text">
+                    894年に遣唐使になった<span class="highlight-green">菅原道真</span>は、唐のおとろえと往復の危険とを理由に派遣の中止を提案し、このときの派遣は立ち消えになりました。そしてこれを最後に、<span class="highlight-green">遣唐使の派遣は計画されなくなりました</span>。
+                </p>
+                <span class="year-badge">894年</span>
+            </div>
+
+            <div class="note-box">
+                <h4>🌏 トライ：平安時代初めの政治と社会の変化を、次の語句を使って説明しましょう。</h4>
+                <p class="text"><strong>【語句】</strong>平安京、国風文化、班田収授法、遣唐使</p>
+                <p class="text">
+                    794年に桓武天皇が平安京に都を移し、平安時代が始まりました。班田収授法が次第に行われなくなり律令国家の仕組みが変化する中、894年に菅原道真の提案で遣唐使の派遣が終了し、唐風文化から日本独自の国風文化が発展していきました。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション12: 御堂関白記（史料） -->
+        <div class="section">
+            <h2 class="main-heading">史料：御堂関白記</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">御堂関白記（藤原道長自筆日記、京都府 陽明文庫蔵）</h3>
+                <p class="text">
+                    藤原道長が、<span class="highlight">天皇や摂関家の最上級の役職である左大臣</span>だったころの記述の部分。
+                </p>
+                <span class="year-badge">史料（記載あり）</span>
+            </div>
+
+            <div class="note-box">
+                <h4>📖 史料の内容</h4>
+                <p class="text">
+                    この史料には、藤原道長が左大臣として最高権力を握っていた時代の記述が含まれており、摂関政治の実態を知る貴重な史料となっています。
+                </p>
+            </div>
+        </div>
+
+        <!-- 最終まとめセクション -->
+        <div class="section">
+            <h2 class="main-heading">完全網羅まとめ</h2>
+
+            <div class="timeline-visual">
+                <div class="timeline-item-visual">
+                    <h4 style="color: #667eea; font-weight: 800;">9世紀</h4>
+                    <p>最澄・空海<br>新仏教伝来<br>遣唐使終了(894年)</p>
+                </div>
+                <div class="timeline-item-visual">
+                    <h4 style="color: #764ba2; font-weight: 800;">10世紀</h4>
+                    <p>武士の登場<br>承平・天慶の乱<br>国風文化発展</p>
+                </div>
+                <div class="timeline-item-visual">
+                    <h4 style="color: #f093fb; font-weight: 800;">11世紀</h4>
+                    <p>摂関政治<br>院政開始<br>荘園拡大</p>
+                </div>
+                <div class="timeline-item-visual">
+                    <h4 style="color: #f5576c; font-weight: 800;">12世紀</h4>
+                    <p>保元・平治の乱<br>平氏政権<br>源平合戦</p>
+                </div>
+                <div class="timeline-item-visual">
+                    <h4 style="color: #fa709a; font-weight: 800;">1192年</h4>
+                    <p>鎌倉幕府成立<br>征夷大将軍<br>武家政権確立</p>
+                </div>
+            </div>
+
+            <div class="note-box">
+                <h4>🎯 教科書全内容の重要ポイント</h4>
+                <ul class="list">
+                    <li><strong>政治体制の変遷</strong>：律令国家 → 摂関政治 → 院政 → 武家政権</li>
+                    <li><strong>武士の成長過程</strong>：10世紀の登場 → 武士団形成 → 保元・平治の乱 → 政権掌握</li>
+                    <li><strong>土地制度の変化</strong>：班田収授法の崩壊 → 荘園・公領制度の確立</li>
+                    <li><strong>文化の発展</strong>：唐風文化 → 国風文化（仮名文字、仮名文学、寝殿造）</li>
+                    <li><strong>宗教の変化</strong>：天台宗・真言宗（山岳仏教） → 浄土信仰の広まり</li>
+                    <li><strong>対外関係</strong>：遣唐使終了（894年） → 日宋貿易の開始</li>
+                    <li><strong>主要人物</strong>：最澄、空海、菅原道真、藤原道長、頼通、後三条天皇、白河天皇、鳥羽上皇、平清盛、源義朝、源頼朝、源義経</li>
+                    <li><strong>重要事件</strong>：承平・天慶の乱、前九年合戦・後三年合戦、保元の乱、平治の乱、源平合戦</li>
+                    <li><strong>制度・概念</strong>：摂関政治、院政、守護・地頭、御恩と奉公、荘園・公領、国司</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const sections = document.querySelectorAll('.section');
+            const contentBoxes = document.querySelectorAll('.content-box');
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            sections.forEach(section => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(50px)';
+                section.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                observer.observe(section);
+            });
+
+            contentBoxes.forEach((box, index) => {
+                box.style.opacity = '0';
+                box.style.transform = 'translateX(-30px)';
+                box.style.transition = `all 0.6s cubic-bezier(0.4, 0, 0.2, 1) ${index * 0.1}s`;
+                observer.observe(box);
+            });
+
+            // ホバーエフェクト
+            contentBoxes.forEach(box => {
+                box.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateX(15px) scale(1.02)';
+                    this.style.boxShadow = '0 20px 50px rgba(102, 126, 234, 0.5)';
+                });
+                
+                box.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateX(0)';
+                    this.style.boxShadow = '0 15px 40px rgba(0,0,0,0.3)';
+                });
+            });
+
+            // ハイライト効果の強化
+            const highlights = document.querySelectorAll('.highlight, .highlight-pink, .highlight-orange, .highlight-green');
+            highlights.forEach(highlight => {
+                highlight.addEventListener('mouseenter', function() {
+                    this.style.transform = 'scale(1.1)';
+                    this.style.transition = 'transform 0.2s ease';
+                });
+                highlight.addEventListener('mouseleave', function() {
+                    this.style.transform = 'scale(1)';
+                });
+            });
+
+            // スムーススクロール
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // パララックス効果
+            window.addEventListener('scroll', function() {
+                const scrolled = window.pageYOffset;
+                const parallaxElements = document.querySelectorAll('.section::before');
+                parallaxElements.forEach(el => {
+                    const speed = 0.5;
+                    el.style.transform = `translateY(${scrolled * speed}px)`;
+                });
+            });
+        });
+    </script>
+</body>
+</html>    <div class="content-box box-pink">
+                <p class="text">
+                    清盛の一族も高い地位に就き、多くの荘園や公領を支配しました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <h4 class="mini-heading heading-blue">日宋貿易の利益</h4>
+                <p class="text">
+                    また清盛は、<span class="highlight-pink">日宋貿易の利益</span>に着目し、航路や兵庫（兵庫県神戸市）の港を整備しました。
+                </p>
+                <span class="year-badge">p.56（記載あり）</span>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    清盛は、<span class="highlight-orange">娘を天皇のきさきにして</span>権力を固め、朝廷の政治の実権をにぎりました。こうして12世紀後半に、<span class="emphasis">日本で初めての武士の政権</span>が成立しました。
+                </p>
+                <span class="year-badge">p.279（記載あり）</span>
+            </div>
+
+            <div class="content-box box-green">
+                <h3 class="sub-heading heading-green">平氏の打倒を目指して兵を挙げた武士</h3>
+                <p class="text">
+                    平氏が朝廷の政治を思いどおりに動かしたため、貴族や寺社は反発し、地方の武士の中にも、平氏のやり方に不満を持つ者が増えました。さらに、清盛は後白河上皇を別荘に閉じこめ、多くの貴族を解任したため、1180年に伊豆（静岡県）の<span class="highlight-green">源頼朝</span>や、木曽（長野県）の<span class="highlight-green">源義仲</span>などをはじめとする各地の武士は、平氏の打倒を目指して兵を挙げました。
+                </p>
+                <span class="year-badge">1180年</span>
+                <span class="year-badge">p.70（記載あり）</span>
+            </div>
+
+            <div class="content-box box-red">
+                <p class="text">
+                    頼朝は、鎌倉（神奈川県）を本拠地にし、関東地方を支配すると、弟の<span class="highlight">源義経</span>などに命令して平氏を攻めさせました。平氏を追いつめ、<span class="highlight">壇ノ浦（山口県）</span>で滅ぼしました。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション2: 院政と武士 -->
+        <div class="section">
+            <h2 class="main-heading">院政と武士</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">院政と武士</h3>
+                <p class="text">
+                    11世紀後半には、藤原氏などの貴族の荘園が増加していました。藤原氏との関係が薄かった次の<span class="highlight">後三条天皇</span>は、荘園の増加をおさえ、政治改革を行いました。
+                </p>
+                <span class="year-badge">p.55（記載あり）</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    次の<span class="highlight-pink">白河天皇</span>は、自分の子孫を確実に天皇の位に就けるため、位をゆずって上皇になり、その後も政治を動かしました。
+                </p>
+                <span class="year-badge">p.67（記載あり）</span>
+            </div>
+
+            <div class="content-box box-blue">
+                <p class="text">
+                    上皇が中心となって行う政治を、<span class="highlight-blue">院政</span>といいます。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <h4 class="mini-heading heading-orange">鳥羽上皇と北面の武士</h4>
+                <p class="text">
+                    次の<span class="highlight-orange">鳥羽上皇</span>は、摂政や関白の力をおさえ、かわりに上皇を補佐する<span class="highlight-orange">北面の武士</span>などの武士や貴族に活躍の場をあたえました。
+                </p>
+                <span class="year-badge">p.70（記載あり）</span>
+            </div>
+
+            <div class="content-box box-green">
+                <p class="text">
+                    多くの荘園が上皇の下に集まり、上皇は荘園を保護したので、寺社も多くの荘園を持ち、武装した僧（僧兵）を出動させ、勢力を広げました。
+                </p>
+            </div>
+
+            <div class="content-box box-teal">
+                <h3 class="sub-heading heading-teal">保元の乱と平治の乱</h3>
+                <p class="text">
+                    鳥羽上皇の死後、天皇と上皇との対立や貴族の間の対立がおこり、都で<span class="highlight">保元の乱</span>と<span class="highlight">平治の乱</span>という二つの内乱が起こりました。
+                </p>
+                <span class="year-badge">12世紀後半</span>
+            </div>
+
+            <div class="content-box box-red">
+                <h4 class="mini-heading heading-red">保元の乱</h4>
+                <p class="text">
+                    保元の乱では、後白河天皇に味方した<span class="highlight">平清盛</span>と<span class="highlight">源義朝</span>が勝利しました。
+                </p>
+                <span class="year-badge">p.70（記載あり）</span>
+            </div>
+
+            <div class="content-box box-indigo">
+                <h4 class="mini-heading heading-indigo">平治の乱</h4>
+                <p class="text">
+                    平治の乱では、平清盛が源義朝を破って力を広げました。この二つの内乱では、朝廷内の対立が武士同士の戦いによって解決されたことから、<span class="emphasis">武士が政治の実権をにぎるようになった転機</span>となりました。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション3: 武士はどのようにして政治の実権をにぎったか -->
+        <div class="section">
+            <h2 class="main-heading">武士はどのようにして政治の実権をにぎったか</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">武士の登場</h3>
+                <p class="text">
+                    平安時代の10世紀ごろから、都や地方で、弓矢や馬などの戦いの技術に優れた<span class="highlight">武士</span>が成長し始めました。
+                </p>
+                <span class="year-badge">10世紀ごろ〜</span>
+                <span class="year-badge">p.49（記載あり）</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    武士は、もとは都の武官や地方の役人になって、天皇の住まいや役所の警備、犯罪の取りしまりなどを担当するようになりました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <p class="text">
+                    都では、藤原氏などの貴族に仕えて屋敷を警備する武士も登場しました。都の武士が地方の役職に就いてそのまま住みつくこともあり、また地方の武士が都に上って朝廷に仕えたりすることもありました。
+                </p>
+            </div>
+
+            <div class="content-box box-orange">
+                <h3 class="sub-heading heading-orange">武士団の形成</h3>
+                <p class="text">
+                    このように武士は、都と地方とを行き来しながら、社会で盛んに活動するようになりました。やがて地方の武士は、一族や家来を従えて<span class="highlight-orange">武士団を作る</span>ほどに成長していきました。
+                </p>
+                <span class="year-badge">10世紀中ごろ</span>
+            </div>
+
+            <div class="content-box box-green">
+                <p class="text">
+                    力をつけた武士の中には、朝廷の役人と対立する者もありました。10世紀の中ごろ、北関東では<span class="highlight-green">平将門</span>が、瀬戸内海では<span class="highlight-green">藤原純友</span>が、それぞれ周辺の武士団を率いて大きな反乱になりました（<span class="highlight-green">承平・天慶の乱</span>）。
+                </p>
+                <span class="year-badge">10世紀中ごろ</span>
+            </div>
+
+            <div class="content-box box-teal">
+                <p class="text">
+                    別の武士団の力によってこの反乱をしずめたことから、できたため、朝廷も武士の力を認めるようになりました。
+                </p>
+            </div>
+
+            <div class="content-box box-red">
+                <h4 class="mini-heading heading-red">天皇の子孫である源氏と平氏</h4>
+                <p class="text">
+                    なかでも、天皇の子孫である<span class="highlight">源氏</span>と<span class="highlight">平氏</span>が率いる武士団が有力でした。11世紀後半には、東北地方の武士どうしの争いをきっかけとして、大きな戦乱（<span class="highlight">前九年合戦・後三年合戦</span>）が起こりました。
+                </p>
+                <span class="year-badge">11世紀後半</span>
+            </div>
+
+            <div class="content-box box-yellow">
+                <p class="text">
+                    この争いをしずめた源氏の<span class="highlight-orange">源義家</span>が東日本に勢力を広げました。また、東北地方では平泉（岩手県）を拠点に成長した<span class="highlight-orange">奥州藤原氏</span>が力を持ちました。
+                </p>
+            </div>
+
+            <div class="content-box box-cyan">
+                <p class="text">
+                    12世紀前半には、瀬戸内海の海賊をしずめた平氏が西日本に勢力をのばしました。
+                </p>
+                <span class="year-badge">12世紀前半</span>
+            </div>
+        </div>
+
+        <!-- セクション4: 荘園・公領と武士の役割 -->
+        <div class="section">
+            <h2 class="main-heading">荘園・公領と武士の役割</h2>
+
+            <div class="content-box box-purple">
+                <h3 class="sub-heading heading-purple">荘園・公領と武士の役割</h3>
+                <p class="text">
+                    11世紀ごろから、地方の役人や僧、武士などが<span class="highlight">土地（荘園）の開発</span>を進め、天皇、貴族、寺社（寺や神社）などの有力者が持ち主（領主）となり、朝廷へ納める税を免除されました。
+                </p>
+                <span class="year-badge">11世紀ごろ〜</span>
+                <span class="year-badge">p.49（記載あり）</span>
+            </div>
+
+            <div class="content-box box-pink">
+                <p class="text">
+                    土地の開発者は、荘園の農民から年貢を集めて領主に納めるかわりに、荘園を支配する権利を認めてもらいました。
+                </p>
+            </div>
+
+            <div class="content-box box-blue">
+                <p class="text">
+                    <span class="highlight-blue">国司</span>が支配する土地（<span class="highlight-blue">公領</span>）でも、武士などが犯罪の取りしまりや年貢の取り立てを任されるようになりました。
+                </p>
+                <span class="year-badge">p.47（記載あり）</span>
+            </div>
+
+            <div class="content-box box-orange">
+                <p class="text">
+                    このような中、11世紀の後半には特に武士が大きな役割を果たすようになり、荘園や公領に館を築いて、地方の社会の中心になっていきました。
+                </p>
+                <span class="year-badge">11世紀後半</span>
+            </div>
+        </div>
+
+        <!-- セクション5: 武士が政治において力を持つようになった転機 -->
+        <div class="section">
+            <h2 class="main-heading">武士が政治において力を持つようになった転機</h2>
+
+            <div class="note-box">
+                <h4>📌 チェック：武士が政治において力を持つようになった転機からぬき出しましょう。</h4>
+                <p class="text">
+                    保元の乱と平治の乱という二つの内乱では、朝廷内の対立が武士同士の戦いによって解決されたことから、武士が政治の実権をにぎるようになった転機となりました。
+                </p>
+            </div>
+        </div>
+
+        <!-- セクション6: 武士はどのように成長していったか -->
+        <div class="section">
+            <h2 class="main-heading">武士はどのように成長していったか</h2>
+
+            <div class="note-box">
+                <h4>🔍 トライ：武士はどのように成長していったか、きっかけとなる出来事に着目して説明しましょう。</h4>
+                <p class="text">
+                    10世紀ごろから都や地方で戦いの技術に優れた武士が成長し始め、武士団を形成。10世紀中ごろの承平・天慶の乱で武士の力が認められ、11世紀後半の前九年合戦・後三年合戦を経て、源氏が東日本、平氏が西日本に勢力を拡大。そして12世紀後半の保元の乱・平治の乱を経て、武士が政治の実権をにぎるようになりました。
+                </p>
+            </div>
+        </div>
